@@ -1,0 +1,6 @@
+- id: sass-convert
+  name: Sass convert
+  description: Runs sass convert over files
+  entry: pre_commit_hooks/sass-convert.sh
+  language: script
+  files: \.scss$
